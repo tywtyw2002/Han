@@ -29,7 +29,7 @@
 
 @font-face {
   @include han-range-cjk;
-  font-family: 'Han Songti';
+  font-family: 'Han Songti CJK';
   src:
     local(YuMincho),
     local('Hiragino Mincho ProN'),
@@ -90,7 +90,7 @@
 
 @font-face {
   @include han-range-cjk;
-  font-family: 'Han Songti';
+  font-family: 'Han Songti CJK';
   font-weight: 600;
   src:
     local('YuMincho Demibold'),
