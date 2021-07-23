@@ -9,6 +9,7 @@
 
 %han-mono-hant {
   font-family:
+    han-biaodian( Mono, $han-biaodian-hant ),
     han-biaodian( Sans, $han-biaodian-hant ),
     $han-mono,
     'Zhuyin Heiti',
@@ -27,6 +28,7 @@
 
 %han-mono-hans {
   font-family:
+    han-biaodian( Mono, $han-biaodian-hans ),
     han-biaodian( Sans, $han-biaodian-hans ),
     $han-mono,
     han-typeface( 'Han Heiti', $han-glyph-set-hans, $han-mono-zh ),

@@ -108,6 +108,27 @@
   unicode-range: U+FF0E;
 }
 
+@font-face {
+  font-family: "Biaodian Pro Mono";
+  src:
+    local("SF Mono"),
+    local("Menlo"),
+    local("Consolas"),
+    local("Courier")
+  ;
+  unicode-range: U+0028-0029;
+}
+
+@font-face {
+  font-family: 'Biaodian Mono';
+  src:
+    local("SF Mono"),
+    local("Menlo"),
+    local("Consolas"),
+    local("Courier")
+  ;
+  unicode-range: U+0028-0029;
+}
 
 @font-face {
   font-family: "Biaodian Pro Sans";
