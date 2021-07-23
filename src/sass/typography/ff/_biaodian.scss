@@ -108,6 +108,32 @@
   unicode-range: U+FF0E;
 }
 
+
+@font-face {
+  font-family: "Biaodian Pro Sans";
+  src:
+    local("Pingfang SC Light"),
+    local('Hiragino Sans GB'),
+    local("Heiti SC"),
+    local(STHeiti),
+    local("MS Gothic"),
+    local(SimSun);
+  unicode-range: U+0028-0029;
+}
+
+@font-face {
+  font-family: 'Biaodian Sans';
+  src:
+    local("Pingfang SC Light"),
+    local('Hiragino Sans GB'),
+    local('Heiti SC'),
+    local(STHeiti),
+    local('MS Gothic'),
+    local(SimSun)
+  ;
+  unicode-range: U+0028-0029;
+}
+
 /* Middle dot (·) */
 // 1
 @font-face {
