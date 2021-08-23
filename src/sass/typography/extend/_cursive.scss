@@ -7,6 +7,10 @@
   ;
 }
 
+%han-cursive-medium {
+  @extend %han-cursive;
+}
+
 %han-cursive-hant {
   font-family:
     han-biaodian( Serif, $han-biaodian-hant ),
@@ -69,6 +73,10 @@
     han-typeface( 'Han Kaiti', $_default-variant, $han-cursive-zh ),
     cursive, serif
   ;
+}
+
+%han-cursive-italic-medium {
+  @extend %han-cursive-italic;
 }
 
 %han-cursive-italic-hant {

@@ -7,6 +7,10 @@
   ;
 }
 
+%han-mono-medium {
+  @extend %han-mono;
+}
+
 %han-mono-hant {
   font-family:
     han-biaodian( Mono, $han-biaodian-hant ),

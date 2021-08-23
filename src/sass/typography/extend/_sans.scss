@@ -7,6 +7,14 @@
   ;
 }
 
+%han-sans-medium {
+  font-family:
+    charter, Georgia, Cambria, "Times New Roman", Times,
+    han-typeface( 'Han Songti', $_default-variant, $han-serif-zh ),
+    serif
+  ;
+}
+
 %han-sans-hant {
   font-family:
     han-biaodian( Sans, $han-biaodian-hant ),
@@ -69,13 +77,22 @@
   ;
 }
 
+%han-sans-italic-medium {
+  font-family:
+    // 'Latin Italic Sans',
+    charter, Georgia, Cambria, "Times New Roman", Times,
+    han-typeface( 'Han Songti', $_default-variant, $han-serif-zh ),
+    serif
+  ;
+}
+
 %han-sans-italic-hant {
   font-family:
     han-biaodian( Sans, $han-biaodian-hant ),
     'Latin Italic Sans',
     $han-sans,
     'Zhuyin Heiti',
-    han-typeface( 'Han Heiti', $han-glyph-set-hant, $han-sans-zh ),
+    han-typeface( 'Han Songti', $han-glyph-set-hant, $han-sans-zh ),
     sans-serif
   ;
 }

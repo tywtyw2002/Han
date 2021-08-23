@@ -51,7 +51,7 @@
   *:lang(zh-Latn),
   *:lang(ja-Latn),
   *:not(:lang(zh)):not(:lang(ja)) {
-    @extend %han-#{$typeface};
+    @extend %han-#{$typeface}-medium;
   }
 }
 
